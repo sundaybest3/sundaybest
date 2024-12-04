@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.head("About sundaybest")
+st.title("About sundaybest")
 st.write("Pure beginner of streamlit")
