@@ -1,4 +1,0 @@
-import streamlit as st
-
-st.head("NounSmart: irregulars")
-st.write("to be updated")
