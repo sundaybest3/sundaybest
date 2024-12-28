@@ -2,11 +2,10 @@ import streamlit as st
 
 st.title("NounSmart: Countability")
 st.write("How much do you know if a noun is countable or uncountable? Visit this app and check it out.")
-st.write("Click the link or scan the QR code to visit the app.")
 st.write("Choose a page from the textbook and get all the answers correct.")
+st.write("Click the link or scan the QR code to visit the app.")
 st.write("Good luck! 🍀")
 st.markdown("Link: [NounSmart: Countability](https://nounsmartcountability-8zeyyjclx4pwyjpfdtmyhk.streamlit.app/)")
-
 
 import qrcode
 from io import BytesIO
