@@ -5,7 +5,7 @@ st.write("This app is for practicing spelling of irregular plural nouns.")
 st.write("Click the link or scan the QR code to visit the app.")
 st.write("Choose a level and get all the answers correct.")
 st.write("Good luck! 🍀")
-st.markdown("[Link: Irregulars.](https://nounsmartirregulars-5xvnwrz796lsebgkjmyotk.streamlit.app/)")
+st.markdown("Link: [NounSmart: Irregulars](https://nounsmartirregulars-5xvnwrz796lsebgkjmyotk.streamlit.app/)")
 
 
 import qrcode
