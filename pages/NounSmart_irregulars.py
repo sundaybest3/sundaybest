@@ -1,11 +1,10 @@
 import streamlit as st
 
 st.title("NounSmart: Irregulars")
-st.write("""
-This app is for practicing spelling of irregular plural nouns.
-Choose a level and get all the answers correct.
-Good luck! 🍀
-""") 
+st.write("This app is for practicing spelling of irregular plural nouns.")
+st.write("Choose a level and get all the answers correct.")
+st.write("Good luck! 🍀")
+st.markdown("[Click here to visit NounSmart: Irregulars.](https://nounsmartirregulars-5xvnwrz796lsebgkjmyotk.streamlit.app/)")
 
 
 import qrcode
