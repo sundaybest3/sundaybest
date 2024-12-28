@@ -19,5 +19,6 @@ buffer = BytesIO()
 qr_image.save(buffer, format="PNG")
 buffer.seek(0)
 
-st.image("path/to/qr_code.png", caption="Scan this QR code to visit our page!", use_container_width=True)
+st.image("path/to/qr_code.png", caption="Scan this QR code to visit our page!", use_column_width=True)
+
 
