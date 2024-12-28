@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title("Home of Sundaybest")
+st.title("Welcome to Sundaybest's Home!")
          
 st.write("Hello. Welcome to sundaybest's classroom!")
