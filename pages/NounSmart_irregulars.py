@@ -1,9 +1,18 @@
 import streamlit as st
+
+st.title("NounSmart: Irregulars")
+st.write("""
+This app is for practicing spelling of irregular plural nouns.
+Choose a level and get all the answers correct.
+Good luck! 🍀
+""") 
+
+
 import qrcode
 from io import BytesIO
 
 # Generate QR code
-qr_data = "https://your-link-here.com"  # Replace with your desired URL or data
+qr_data = "https://nounsmartirregulars-5xvnwrz796lsebgkjmyotk.streamlit.app/"  # Replace with your desired URL or data
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
 qr.add_data(qr_data)
 qr.make(fit=True)
@@ -15,6 +24,6 @@ qr_image.save(buffer, format="PNG")
 buffer.seek(0)
 
 # Add QR code to Streamlit
-st.image(buffer, caption="Scan this QR code to visit our page!", use_column_width=True)
+st.image(buffer, caption="Scan this QR code to NounSmart_irregulars.", use_column_width=True)
 
 
