@@ -2,12 +2,6 @@ import streamlit as st
 
 st.title("Welcome to Sundaybest's Home!")
          
-import streamlit as st
-from PIL import Image
+image_url = "https://github.com/sundaybest3/sundaybest/blob/main/home_image.png"
 
-# Load the resized pastel-toned image
-image_path = "https://github.com/sundaybest3/sundaybest/blob/main/home_image.png"  # Adjust this path
-image = Image.open(image_path)
-
-# Display the image in Streamlit
-st.image(image, caption="Pastel Toned Image", use_container_width=True)
+st.image(image_url, caption="Home Image", use_container_width=True)
